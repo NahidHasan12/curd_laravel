@@ -9,6 +9,7 @@
             @elseif(session()->get('error'))
                 <div style="font-size: 15px" class="badge d-block bg-danger">{{ session()->get('error') }}</div>
             @endif
+
             <div class="card">
                 <div class="card-header d-flex justify-content-between"><p>CURD Area</p>
                  <a href="{{ route('home') }}" class="btn btn-sm btn-danger">Back</a>
